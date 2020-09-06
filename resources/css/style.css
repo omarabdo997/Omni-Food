@@ -98,8 +98,7 @@ h2:after {
     margin-bottom: 50px;
 }
 .btn:visited,
-.btn:link,
-.btn:active{
+.btn:link{
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -112,6 +111,14 @@ h2:after {
 
 .btn-full {
     background-color: #e67e22;
+}
+.btn-ghost:visited,
+.btn-ghost:link {
+    color: #e67e22;
+}
+.btn-ghost:active,
+.btn-ghost:hover {
+    color: white;
 }
 .btn:active,
 .btn:hover {
@@ -275,8 +282,10 @@ nav {
 .citie-div p {
     margin-bottom: 5px;
 }
-.citie-div i {
-    ggs: 3;
+.small-icon {
+    display: inline-block;
+    margin-right: 10px;
+    --ggs: 1;
     color: #e67e22;
 }
 .citie-div a:visited,
@@ -327,4 +336,51 @@ cite img {
     height: 100px;
     vertical-align: middle;
     margin-right: 15px;
+}
+.prices-section {
+    padding: 80px 0;
+    background-color: #fbe9d9;
+}
+.prices-section h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+.benefits li{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 20px ;
+    /* display: inline-block; */
+}
+.benefits i {
+    display: inline-block;
+    margin-right: 10px;
+    --ggs: 2;
+    color: #e67e22;
+    vertical-align: middle;
+}
+.plan {
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+.plan p {
+    margin-left: 20px;
+}
+.benefits{
+    border-bottom: 2px solid #f0b37e86;
+    border-top: 2px solid #f0b37e86;
+    padding: 20px 0;
+    margin-top: 30px;
+
+}
+.price-tag {
+    
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 250%;
+    margin: 15px 0;
+    margin-left: 20px;
+}
+.btn-price {
+    text-align: center;
 }
