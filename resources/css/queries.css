@@ -71,6 +71,10 @@
 @media only screen and (max-width: 767px){
     header {height: 100vh;}
     body {font-size: 16px;}
+    .long-copy {
+        width: 100%;
+        padding: 10px;
+    }
     .step span {
         padding-top: 2%;
     }
@@ -78,7 +82,7 @@
         margin-left: 15%;
     }
     .step {margin: 3% 0;}
-    .app-button img { height: 50px; }
+    .app-button img { height: 45px; }
     .iphone {
         width: 50%;
         float: none;
@@ -87,6 +91,12 @@
     }
     .citie-div h3{text-align: left;}
     .step {
+        padding: 10px;
+    }
+    .meal-photo { 
+        width: 50%;
+    }
+    .col {
         padding: 10px;
     }
     
