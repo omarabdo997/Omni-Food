@@ -70,6 +70,22 @@
 /* big phone screens */
 @media only screen and (max-width: 767px){
     header {height: 100vh;}
+    body {font-size: 16px;}
+    .step span {
+        padding-top: 2%;
+    }
+    .step p {
+        margin-left: 15%;
+    }
+    .step {margin: 3% 0;}
+    .app-button img { height: 50px; }
+    .iphone {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .citie-div h3{text-align: left;}
 }
 
 

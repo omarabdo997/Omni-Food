@@ -151,6 +151,7 @@ header {
     position: absolute;
     top: 50%;
     left: 10%;
+    font-size: 90%;
     /* transform: translate(-50%, -50%); */
 }
 
