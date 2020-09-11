@@ -1,0 +1,80 @@
+
+/* tablet landscape mode */
+@media only screen and (max-width: 1200px) {
+    .main-nav {
+        margin-right: 5%;
+    }
+
+}
+
+/* tablets portrait mode */
+@media only screen and (max-width: 1023px){
+    .main-nav li {margin-left: 10px}
+    .logo {height: 150px;}
+    body {font-size: 18px;}
+    .app-button img { height: 40px; }
+    .small-icon { 
+        --ggs: 0.7;
+        margin-right: 3px;
+    }
+    .cities-section i{
+        margin-right: 0px;
+        vertical-align: middle;
+    }
+    .citie-div p {
+        font-size: 90%;
+    }
+    
+    .step span {
+        padding-top: 3%;
+    }
+    .step p {
+        margin-left: 20%;
+    }
+    
+    .price-tag {
+        font-size: 200%;
+    }
+    .prices-section {
+        font-size: 90%;
+    }
+    footer {
+        font-size: 80%;    
+    }
+    .about li {
+        margin-right: 5px;
+    }
+    .gg-twitter {
+        --ggs: 1;
+    }
+    .gg-facebook {
+        --ggs: 1;
+    }
+
+    
+    .gg-google {
+        --ggs: 1;
+
+    }
+
+    
+    .gg-instagram {
+        --ggs: 1;
+    }
+    .long-copy {
+        width: 80%;
+
+    }
+}
+
+/* big phone screens */
+@media only screen and (max-width: 767px){
+
+}
+
+
+
+/* small mobile screen */
+@media only screen and (max-width: 480px){
+
+}
