@@ -86,11 +86,15 @@
         padding-right: 0;
     }
     .citie-div h3{text-align: left;}
+    .step {
+        padding: 10px;
+    }
+    
 }
 
 
 
 /* small mobile screen */
 @media only screen and (max-width: 480px){
-
+    .app-button img { height: 30px; }
 }
