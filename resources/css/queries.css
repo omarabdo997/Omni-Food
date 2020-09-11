@@ -69,7 +69,7 @@
 
 /* big phone screens */
 @media only screen and (max-width: 767px){
-
+    header {height: 100vh;}
 }
 
 
