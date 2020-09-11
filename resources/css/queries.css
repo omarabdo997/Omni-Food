@@ -106,5 +106,5 @@
 
 /* small mobile screen */
 @media only screen and (max-width: 480px){
-    .app-button img { height: 30px; }
+    .app-button img { height: 45px; }
 }
