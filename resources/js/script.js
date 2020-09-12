@@ -14,7 +14,7 @@ function handleClick(e) {
     e.preventDefault();
     
     const nav = document.querySelector('.main-nav');
-    if(nav.style.right === '-500px') nav.style.right = "-50px"
+    if(!Boolean(nav.style.right) || nav.style.right === '-500px') nav.style.right = "-50px"
     else nav.style.right = "-500px"
         
 }
