@@ -70,6 +70,14 @@
 /* big phone screens */
 @media only screen and (max-width: 767px){
     header {height: 100vh;}
+    .mobile-nav {display: block;}
+    .main-nav {
+        right: -500px;
+    }
+    .main-nav li {
+        display: block;
+        margin: 50px 0;
+    }
     body {font-size: 16px;}
     .long-copy {
         width: 100%;

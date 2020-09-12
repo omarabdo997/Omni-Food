@@ -12,6 +12,9 @@ html {
     font-weight: 300;
     cursor: auto;   
 }
+.hide {
+    display: none;
+}
 
 /* ---------------------- */
 /* --Reused Components-- */
@@ -159,6 +162,8 @@ header {
 /* Nav Data */
 nav {
     padding-top: 20px;
+    overflow: hidden;
+    /* position: relative; */
 }
 .logo {
   float: left;
@@ -169,6 +174,10 @@ nav {
     float: right;
     margin-right: 10%;
     margin-top: 20px;
+    position: relative;
+    transition: left 0.5s, right 0.5s linear;
+    /* animation-name: example; */
+    /* animation-duration: 2s; */
 }
 .main-nav li {
     display: inline-block;
@@ -496,3 +505,16 @@ footer a:active {
     color: #3f729b;
 }
 
+.mobile-nav {
+    float: right;
+    margin: 10px 20px;
+    font-size: 200%;
+    text-decoration: none;
+    color: #e67e22;
+    display: none;
+}
+
+@keyframes example {
+    0%   {background-color:red; right:-500px;}
+    100% {background-color:red; right: 0px;}
+  }
